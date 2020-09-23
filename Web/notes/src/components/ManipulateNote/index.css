@@ -1,0 +1,49 @@
+::placeholder {
+    color: initial;
+}
+
+.workingArea, .createCard {
+    display: flex;
+}
+
+.workingArea {
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+.createCard {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    max-width: 70%;
+    min-height: 600px;
+    background-color: #e54f6d;
+    border: 2px solid #882d3f;
+    border-radius: 8px;
+}
+
+#title, #content {
+    text-align: center;
+    min-width: 100%;
+    background-color: unset;
+    border: none;
+}
+
+#title {
+    font-size: 2em;
+}
+
+#content {
+    min-height: 500px;
+    font-size: 1.4em;
+    font-weight: 300;
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
