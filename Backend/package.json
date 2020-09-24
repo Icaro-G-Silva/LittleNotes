@@ -1,0 +1,23 @@
+{
+  "name": "notesbackend",
+  "version": "1.0.0",
+  "description": "Notes Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "Notes",
+    "Backend"
+  ],
+  "author": "Ícaro Silva",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
