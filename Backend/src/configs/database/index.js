@@ -1,5 +1,7 @@
+require('dotenv').config()
+
 module.exports = {
-    uri: 'mongodb+srv://icaro:passwd322@notescluster.hgi8b.mongodb.net/<dbname>?retryWrites=true&w=majority',
+    uri: process.env.DB_URI,
     configOptions: {
         useNewUrlParser: true,
         useUnifiedTopology: true,
