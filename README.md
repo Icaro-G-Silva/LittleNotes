@@ -1,4 +1,4 @@
-# Not Done yet! I'm going on Baby Steps :)
+# Not Done yet (Half done)! I'm going on Baby Steps :)
 <br><br>
 ## LittleNotes
 > Notes App Simulation
@@ -15,4 +15,4 @@ This project is just for learning a little about: <br>
 + **MongoDB**
 
 ### Version
-> 0.0
+> 1.0
